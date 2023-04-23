@@ -1,0 +1,108 @@
+
+
+
+.background-black{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.company-name{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+   
+}
+.nav-item{
+    border-radius: 20000000px;
+}
+.nav-item:hover{
+    animation-name: nav-item-hover ;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    
+}
+.text-center{
+    text-align: center;
+}
+@keyframes nav-item-hover {
+    from{
+      color: white;
+    }
+    to{
+        background-color: white;
+        color: black;
+    }
+}
+
+/* --------------------------bottom---------------------- */
+.bottom{
+    
+    top: 650PX;
+    background-color: rgb(40, 43, 36);
+    
+    box-shadow: 1px 1px 526px rgb(71, 50, 50);
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.pop-mix{
+    color: white;
+}
+
+.PLAYLIST-NAME{
+
+    color: white;
+
+}
+.PLAYLIST-NAME:hover{
+    color: blue;
+}
+.song-name{
+    color: white;
+    font-size: 25px;
+
+}
+.song-name:hover{
+   text-shadow: 1px 1px 60px white;
+   text-decoration: underline;
+   
+}
+.artist-name{
+    
+    color: white;
+    font-size: 15px;
+}
+.artist-name:hover{
+    text-decoration: underline;
+
+}
+.play-symbol{
+    color: white;
+
+}
+.play-symbol:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 60px wheat;
+    
+}
+.song-container{
+    border-bottom: 2px solid rgb(50, 43, 43);
+    border-top: 2px solid rgb(60, 53, 53);
+    
+}
+.song-container:hover{
+   box-shadow: 3px 1px 10px rgb(71, 64, 64);
+   border-radius: 10px;
+}
+
+/*---------------------------------------- progresbar---------------------------------------*/
+#progress-bar{
+    color: rgb(35, 26, 26);
+}
