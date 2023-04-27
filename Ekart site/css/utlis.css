@@ -1,0 +1,33 @@
+
+.flex-all-center{
+    display: flex;
+    justify-content: center; /* used to center the along main axis*/
+    align-items: center;/* used to center the along cross axis*/
+}
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-colour);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    color: blue;
+    font-weight: bold;
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
